@@ -7,19 +7,22 @@ Pattern for N = 4
 4444
 */
 
-  #include<iostream>
+     #include<iostream>
 using namespace std;
 
 
 int main(){
-    int N;
-    cin >>N;
-    int i=1;
-
-    while (i <=N){int j = 1;
-    while (j <=N){cout <<N;
-j=j+1;
-    } cout <<endl;
-    i=i+1;} 
+    int n;
+    cin >> n;
+   for (int i=0 ; n>i;i++)
+   {
+       for(int j=0 ; n>j;j++)
+       {
+           cout <<n;
+       }
+       cout << endl;
+   }
 }
+
+
 
